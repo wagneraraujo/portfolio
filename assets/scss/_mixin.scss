@@ -1,0 +1,14 @@
+@mixin btnDefault($background, $colortexto) {
+    background-color: $background;
+    color: $colortexto;
+    padding: 8px 32px;
+    border-radius: 4px;
+    text-decoration: none;
+
+    &:hover {
+        background-color: $background;
+        color: $colortexto;
+          text-decoration: none;
+    }
+
+}

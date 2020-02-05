@@ -1,0 +1,19 @@
+{
+  "name": "portwagner",
+  "version": "1.0.0",
+  "description": "my portfolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wagner Araujo (figma)",
+  "license": "ISC",
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "sass": "^1.25.0"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap": "^4.4.1"
+  }
+}

@@ -1,0 +1,37 @@
+.menuSite {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+
+    img {
+        height: 140px;
+    }
+
+    li {
+        margin: 0px 40px;
+    }
+
+    .linkMenu {
+        a {
+            color: $preto;
+            text-decoration: none;
+            text-transform: uppercase;
+            border-bottom: 3px solid transparent;
+
+            &:hover {
+                color: $azul;
+                border-bottom: 3px solid $azul;
+            }
+        }
+    }
+
+    .logo {
+        border-bottom: none;
+
+        &:hover {
+            border-bottom: none;
+        }
+    }
+}

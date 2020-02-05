@@ -1,0 +1,26 @@
+header {
+    width: 100%;
+    background: url("../img/fundotopo.png") repeat-x center top;
+    background-size: 100%;
+}
+
+.textHeader {
+    h2 {
+        font-weight: 300;
+        color: $preto;
+        margin: 80px 0 20px 0;
+
+        strong {
+            color: $azul;
+            font-weight: bold;
+        }
+    }
+
+    a {
+        @include btnDefault($azul, #fff);
+
+        &:hover {
+            background-color: $preto;
+        }
+    }
+}

@@ -1,0 +1,191 @@
+.expertise {
+  margin-top: 80px;
+}
+
+.titleSections {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+
+  .code {
+    color: #d8d8d8;
+    position: relative;
+    top: -40px;
+    left: 0px;
+    line-height: 40px;
+  }
+
+  .title {
+    text-align: left;
+    position: relative;
+    left: -100px;
+    top: 2px;
+
+    h3 {
+      color: $preto;
+      text-transform: uppercase;
+
+      strong {
+        color: $azul;
+      }
+    }
+  }
+}
+
+.lineWorks {
+  margin-top: 0px;
+
+  .item {
+    background: #ffffff;
+    border: 1px solid #f7f7f7;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px 30px 10px 30px;
+    margin: 16px 0;
+
+    >.image {
+      img {
+        height: 60px;
+      }
+    }
+
+    >.title {
+      margin: 16px 0;
+
+      h3 {
+        font-size: 1.4em;
+        text-transform: uppercase;
+        color: $preto;
+      }
+    }
+
+    >.description {
+      p {
+        font-size: 1em;
+        color: #6b6b6b;
+      }
+    }
+  }
+}
+
+.endLine {
+  margin: 20px 0px;
+  align-items: center;
+
+  h5 {
+    color: $preto;
+    margin: 0px 15px 0 0;
+    font-size: 1em;
+  }
+
+  a {
+    @include btnDefault($verde, #fff);
+
+    &:hover {
+      background-color: $azul;
+    }
+  }
+}
+
+.portfolio {
+  margin-top: 40px;
+  background: linear-gradient(0.17deg, #ebedee -12.42%, #ffffff 107.61%);
+  border: 1px solid #ebedee;
+  box-sizing: border-box;
+  padding: 40px 0px;
+}
+
+.listaPort {
+  text-align: center;
+
+  .item {
+    margin: 20px 0px;
+  }
+
+  .description {
+    .title {
+      a {
+        padding: 10px 0px;
+        color: $azul;
+        line-height: 35px;
+
+        &:hover {
+          color: $verde;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .subtitle {
+      font-size: 0.9em;
+      color: $preto;
+    }
+  }
+}
+
+footer {
+  padding: 60px 0px;
+
+  .direitos {
+    text-align: center;
+    color: #878787;
+  }
+
+  .contentRodape {
+    background: #ffffff;
+    border: 1px solid #f0f0f0;
+    box-sizing: border-box;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 8px;
+    padding: 20px 60px;
+    margin: 0 0 0 100px;
+
+
+    .infosRodape {
+      display: flex;
+      flex-direction: column;
+
+      .labelForm {
+        color: #464452;
+        font-size: .9em;
+        margin-top: 20px;
+
+      }
+
+      .infoRoda {
+        color: $preto;
+        font-size: 1.1em;
+        font-weight: bold;
+
+        a {
+          color: #000;
+        }
+      }
+
+      ul {
+        padding: 0;
+        list-style-type: none;
+      }
+    }
+  }
+}
+
+.imagemCel {
+  position: absolute;
+  top: -100px;
+  right: 0;
+  left: 250px;
+
+
+
+  img {
+    width: 400px;
+    height: auto;
+  }
+}
+
+.menuRodape {
+  margin-top: 150px;
+  opacity: .9;
+}
