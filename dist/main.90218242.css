@@ -225,6 +225,7 @@ footer .contentRodape .infosRodape .infoRoda {
   color: #464452;
   font-size: 1.1em;
   font-weight: bold;
+  display: inline;
 }
 footer .contentRodape .infosRodape .infoRoda a {
   color: #000;

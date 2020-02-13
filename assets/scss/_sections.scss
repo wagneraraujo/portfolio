@@ -44,13 +44,13 @@
     padding: 30px 30px 10px 30px;
     margin: 16px 0;
 
-    >.image {
+    > .image {
       img {
         height: 60px;
       }
     }
 
-    >.title {
+    > .title {
       margin: 16px 0;
 
       h3 {
@@ -60,7 +60,7 @@
       }
     }
 
-    >.description {
+    > .description {
       p {
         font-size: 1em;
         color: #6b6b6b;
@@ -141,22 +141,21 @@ footer {
     padding: 20px 60px;
     margin: 0 0 0 100px;
 
-
     .infosRodape {
       display: flex;
       flex-direction: column;
 
       .labelForm {
         color: #464452;
-        font-size: .9em;
+        font-size: 0.9em;
         margin-top: 20px;
-
       }
 
       .infoRoda {
         color: $preto;
         font-size: 1.1em;
         font-weight: bold;
+        display: inline;
 
         a {
           color: #000;
@@ -177,8 +176,6 @@ footer {
   right: 0;
   left: 250px;
 
-
-
   img {
     width: 400px;
     height: auto;
@@ -187,5 +184,5 @@ footer {
 
 .menuRodape {
   margin-top: 150px;
-  opacity: .9;
+  opacity: 0.9;
 }
