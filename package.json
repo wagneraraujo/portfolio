@@ -10,7 +10,7 @@
   "author": "Wagner Araujo (figma)",
   "license": "ISC",
   "devDependencies": {
-    "cssnano": "^4.1.10",
+    "cssnano": "^4.1.11",
     "sass": "^1.25.0"
   },
   "dependencies": {
