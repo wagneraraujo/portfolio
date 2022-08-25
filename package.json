@@ -2,15 +2,16 @@
   "name": "portwagner",
   "version": "1.0.1",
   "description": "my portfolio",
-  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "dev": "parcel index.html"
   },
   "author": "Wagner Araujo (figma)",
   "license": "ISC",
   "devDependencies": {
     "cssnano": "^4.1.11",
+    "parcel": "^2.7.0",
     "sass": "^1.25.0"
   },
   "dependencies": {
