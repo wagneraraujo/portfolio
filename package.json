@@ -1,6 +1,6 @@
 {
   "name": "portwagner",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "my portfolio",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,7 +11,7 @@
   "author": "Wagner Araujo (figma)",
   "license": "ISC",
   "devDependencies": {
-    "cssnano": "^6.0.1",
+    "cssnano": "^5.0.1",
     "parcel": "^2.9.3",
     "sass": "^1.63.6"
   },
